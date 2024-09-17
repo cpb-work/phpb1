@@ -2,7 +2,7 @@
 
 // TASK 2, item 1
 echo basename(__FILE__) . "\n";
-echo basename(__LINE__) . "\n";
+echo basename(__LINE__) . "\n\n";
 
 
 // TASK 2, item 2
@@ -11,14 +11,14 @@ This is multyline heredoc variable
 according to the task
 HEREDOC_LINE;
 
-echo $multy_line_heredoc_variable . "\n";
+echo $multy_line_heredoc_variable . "\n\n";
 
 
 // TASK 2, item 3
 $a = 'Рыба';
 $b = 'человек';
 
-echo "$a рыбою сыта, а $b человеком" . "\n";
+echo "$a рыбою сыта, а $b человеком" . "\n\n";
 
 
 
